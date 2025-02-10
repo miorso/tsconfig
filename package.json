@@ -14,9 +14,6 @@
   "engines": {
     "node": ">=18"
   },
-  "files": [
-    "src/**/*.json"
-  ],
   "exports": {
     "./app": "./src/app/tsconfig.json",
     "./base": "./src/base/tsconfig.json",
