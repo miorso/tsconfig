@@ -1,0 +1,11 @@
+{
+  "extends": "../base/tsconfig",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Library",
+  "compilerOptions": {
+    "declaration": true,
+    "lib": [
+      "es2022"
+    ]
+  }
+}
