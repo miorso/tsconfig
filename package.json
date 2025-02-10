@@ -1,0 +1,34 @@
+{
+  "name": "@miorso/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configuration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miorso/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/**/*.json"
+  ],
+  "exports": {
+    "./app": "./src/app/tsconfig.json",
+    "./base": "./src/base/tsconfig.json",
+    "./library": "./src/library/tsconfig.json"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.1.0"
+  },
+  "author": "Mikel Orbea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miorso/tsconfig/issues"
+  },
+  "homepage": "https://github.com/miorso/tsconfig#readme"
+}
