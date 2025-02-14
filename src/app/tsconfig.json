@@ -1,13 +1,9 @@
 {
-  "extends": "../base/tsconfig",
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "App",
-  "compilerOptions": {
-    "jsx": "react",
-    "lib": [
-      "es2022",
-      "dom",
-      "dom.iterable"
-    ]
-  }
+	"extends": "../base/tsconfig",
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "App",
+	"compilerOptions": {
+		"jsx": "react",
+		"lib": ["es2022", "dom", "dom.iterable"]
+	}
 }

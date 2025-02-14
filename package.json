@@ -1,31 +1,51 @@
 {
-  "name": "@miorso/tsconfig",
-  "version": "1.0.0",
-  "description": "Shared TypeScript configuration",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/miorso/tsconfig.git"
-  },
-  "keywords": [
-    "tsconfig",
-    "typescript",
-    "ts"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "exports": {
-    "./app": "./src/app/tsconfig.json",
-    "./base": "./src/base/tsconfig.json",
-    "./library": "./src/library/tsconfig.json"
-  },
-  "peerDependencies": {
-    "typescript": ">=5.1.0"
-  },
-  "author": "Mikel Orbea",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/miorso/tsconfig/issues"
-  },
-  "homepage": "https://github.com/miorso/tsconfig#readme"
+	"name": "@miorso/tsconfig",
+	"version": "1.0.1",
+	"description": "Shared TypeScript configuration",
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts"
+	],
+	"homepage": "https://github.com/miorso/tsconfig#readme",
+	"bugs": {
+		"url": "https://github.com/miorso/tsconfig/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/miorso/tsconfig.git"
+	},
+	"license": "MIT",
+	"author": "Mikel Orbea",
+	"type": "module",
+	"exports": {
+		"./app": "./src/app/tsconfig.json",
+		"./base": "./src/base/tsconfig.json",
+		"./library": "./src/library/tsconfig.json"
+	},
+	"main": "src/library/tsconfig.json",
+	"scripts": {
+		"prepare": "husky",
+		"prettier": "prettier --check .",
+		"prettier:fix": "prettier --write ."
+	},
+	"lint-staged": {
+		"**/*": [
+			"prettier --write --ignore-unknown"
+		]
+	},
+	"devDependencies": {
+		"@miorso/prettier-config": "github:miorso/prettier-config",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.4.3"
+	},
+	"peerDependencies": {
+		"typescript": ">=5.1.0"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

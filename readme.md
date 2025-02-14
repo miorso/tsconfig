@@ -18,7 +18,7 @@ Create a `tsconfig.json` file in your project and extend the appropriate configu
 
 ```json
 {
-  "extends": "@miorso/tsconfig/app"
+	"extends": "@miorso/tsconfig/app"
 }
 ```
 
@@ -26,7 +26,7 @@ Create a `tsconfig.json` file in your project and extend the appropriate configu
 
 ```json
 {
-  "extends": "@miorso/tsconfig/library"
+	"extends": "@miorso/tsconfig/library"
 }
 ```
 
@@ -34,7 +34,6 @@ Create a `tsconfig.json` file in your project and extend the appropriate configu
 
 ```json
 {
-  "extends": "@miorso/tsconfig/base"
+	"extends": "@miorso/tsconfig/base"
 }
 ```
-
