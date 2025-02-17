@@ -26,7 +26,7 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		/* Module */
-		"module": "nodenext",
-		"moduleResolution": "nodenext"
+		"module": "esnext",
+		"moduleResolution": "node"
 	}
 }
