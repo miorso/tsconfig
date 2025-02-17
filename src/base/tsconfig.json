@@ -12,6 +12,7 @@
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
 		"sourceMap": true,
+		"outDir": "dist",
 		/* Strictness */
 		"strict": true,
 		"allowUnreachableCode": false,
