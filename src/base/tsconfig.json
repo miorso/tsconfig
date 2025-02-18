@@ -5,13 +5,14 @@
 		/* Base */
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"target": "es2022",
+		"target": "esnext",
 		"allowJs": true,
 		"resolveJsonModule": true,
 		"moduleDetection": "force",
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
 		"sourceMap": true,
+		"lib": ["esnext"],
 		/* Strictness */
 		"strict": true,
 		"allowUnreachableCode": false,
