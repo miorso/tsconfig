@@ -1,0 +1,14 @@
+{
+	"extends": "../base/tsconfig",
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Library",
+	"compilerOptions": {
+		"declaration": true,
+		"jsx": "react-jsx",
+
+		// Bundler mode
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"noEmit": true
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"name": "@miorso/tsconfig",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Shared TypeScript configuration",
 	"keywords": [
 		"tsconfig",
@@ -21,7 +21,8 @@
 	"exports": {
 		"./app": "./src/app/tsconfig.json",
 		"./base": "./src/base/tsconfig.json",
-		"./library": "./src/library/tsconfig.json"
+		"./library": "./src/library/tsconfig.json",
+		"./bundler": "./src/bundler/tsconfig.json"
 	},
 	"main": "src/library/tsconfig.json",
 	"scripts": {
